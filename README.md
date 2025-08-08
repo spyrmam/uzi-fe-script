@@ -5653,7 +5653,7 @@ end
 
 end))
 for i,v in pairs(mas:GetChildren()) do
-	v.Parent = game:GetService("Players").LocalPlayer.Backpack
+	v.Parent = owner
 	pcall(function() v:MakeJoints() end)
 end
 mas:Destroy()
