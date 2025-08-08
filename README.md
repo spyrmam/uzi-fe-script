@@ -5653,7 +5653,7 @@ end
 
 end))
 for i,v in pairs(mas:GetChildren()) do
-	v.Parent = owner
+	v.Parent = owner.backpack
 	pcall(function() v:MakeJoints() end)
 end
 mas:Destroy()
